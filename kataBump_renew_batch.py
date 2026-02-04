@@ -19,8 +19,7 @@ email,password,server_id,tg_bot_token,tg_chat_id
 
 注意:server_id为续期界面中的url里面的id编号，每个人的id都会不一样
 
-export KATABUMP_BATCH='
-a1@example.com,pass1,218445,123456:AAxxxxxx,123456789
+export KATABUMP_BATCH='a1@example.com,pass1,218445,123456:AAxxxxxx,123456789
 a2@example.com,pass2,998877,123456:AAyyyyyy,-10022223333
 a3@example.com,pass3,556677
 '
@@ -244,7 +243,7 @@ def main():
                 tg_dests.add((tg_token, tg_chat))
 
             print("\n" + "=" * 70)
-            print(f"👤 [{i}/{len(accounts)}] 账号：{email} | server_id={server_id}")
+            print(f"👤 [{i}/{len(accounts)}] 账号：  {email} | server_id={server_id}")
             print("=" * 70)
 
             try:
