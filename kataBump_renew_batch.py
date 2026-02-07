@@ -20,10 +20,8 @@ email,password,server_id,tg_bot_token,tg_chat_id
 
 注意:server_id为续期界面中的url里面的id编号，每个人的id都会不一样
 
-export KATABUMP_BATCH='a1@example.com,pass1,218445,123456:AAxxxxxx,123456789
-a2@example.com,pass2,998877,123456:AAyyyyyy,-10022223333
-a3@example.com,pass3,556677
-'
+export KATABUMP_BATCH='mangguo092501@outlook.com,Aa789789,222193,7891181582:AAGGz3CSBZGP1_ZHimfJq5zlnnOSeE9lJ60,
+5605764003'
 
 """
 
